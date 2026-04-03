@@ -27,6 +27,6 @@ jobs:
     - name: Send Email with SES
       run: |
         aws ses send-email \
-          --from "dalnara1103@gmail.com" \
+          --from "mincoding@naver.com" \
           --destination "ToAddresses=sejin.choi@mincoding.co.kr" \
           --message "Subject={Data=이유단},Body={Text={Data=금요일이네요~~}}"
